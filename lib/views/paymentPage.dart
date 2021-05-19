@@ -264,6 +264,36 @@ class _PaymentPageState extends State<PaymentPage> with SingleTickerProviderStat
                   fontWeight: FontWeight.bold
               ),),
               SizedBox(height: 10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ClipRRect(
+                    borderRadius: new BorderRadius.all(Radius.circular(10)),
+                    child: Container(
+                      color: Colors.white,
+                        child: Image.asset(americanExpress,height: 30,width: 60,)),
+                  ),
+                  ClipRRect(
+                    borderRadius: new BorderRadius.all(Radius.circular(10)),
+                    child: Container(
+                      color: Colors.white,
+                        child: Image.asset(mastercard,height: 30,width: 60,)),
+                  ),
+                  ClipRRect(
+                    borderRadius: new BorderRadius.all(Radius.circular(10)),
+                    child: Container(
+                      color: Colors.white,
+                        child: Image.asset(visa,height: 30,width: 60,)),
+                  ),
+                  ClipRRect(
+                    borderRadius: new BorderRadius.all(Radius.circular(10)),
+                    child: Container(
+                        color: Colors.white,
+                        child: Image.asset(paypal,height: 30,width: 60,)),
+                  ),
+                ],
+              )
+
 
 
             ],

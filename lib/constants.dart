@@ -8,12 +8,20 @@ TextStyle loginAppBarTextStyle = TextStyle(
 
 String backgroundImage = "assets/whitebackground.jpeg";
 String logo = "assets/superpower.png";
-String partyBackground = "assets/partybackground.png";
+String partyBackground = "assets/partybackground2.png";
 String memojiGirlThumbsUp = "assets/Memoji.png";
 String thumbsUp = "assets/thumbsup.png";
 String kissingGirl = "assets/kissinggirl.png";
 String moneyBag = "assets/moneybag.png";
 String paper = "assets/paper.png";
+String paypal = "assets/paypal.png";
+String mastercard = "assets/mastercard.png";
+String visa = "assets/visa.png";
+String americanExpress = "assets/americanExpress.png";
+String gift = "assets/giftbox.png";
+String twitter = "assets/twitter.png";
+String fb = "assets/fblogo.png";
+String openBox = "assets/opengiftbox.png";
 
 TextStyle loginHeaderStyle = TextStyle(
     fontWeight: FontWeight.w700,
